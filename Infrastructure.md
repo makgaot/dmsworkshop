@@ -5,7 +5,7 @@
 2. Under Services open EC2 (under group Compute)
 3. From right side menu open **Key Pairs**
 4. Create Key pair
-    1. Give a name
+    1. Give a name (myKeyPair)
     2. Save the pem file as generated which would be required later to SSH to ec2 client.
 5. Open link https://tinyurl.com/y3y4hrjz in a new window and copy the raw JSON
 6. Open a text editor and paste the JSON contents and save file as *DBSession.json* locally.
