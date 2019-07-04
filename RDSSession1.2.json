@@ -259,7 +259,7 @@
                 "sudo chmod +x /home/ec2-user/aupsqlr.sh","\n",
                 "sudo echo 'mssql-cli -S ", { "Fn::GetAtt": [ "SQLServerEE13", "PublicDnsName" ] },",1433"," -U myuser -P pAsswOrd12 ' >/home/ec2-user/mssqlb.sh","\n",
                 "sudo chmod +x /home/ec2-user/mssqlb.sh","\n",
-                "sudo echo ","docker run --interactive guywithnose/sqlplus sqlplus \"'myuser/pAsswOrd12@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=",{"Fn::GetAtt":["OracleDB","Endpoint.Address"]},") (PORT=",{"Fn::GetAtt":["OracleDB","Endpoint.Port"]},"))(CONNECT_DATA=(SID=mydata)))'\" >/home/ec2-user/oracleb.sh","\n",
+                "sudo echo ","docker run --interactive guywithnose/sqlplus sqlplus \"'myuser/pAsswOrd12@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=",{"Fn::GetAtt":["OracleDB","Endpoint.Address"]},") (PORT=",{"Fn::GetAtt":["OracleDB","Endpoint.Port"]},"))(CONNECT_DATA=(SID=ORCL)))'\" >/home/ec2-user/oracleb.sh","\n",
                 "sudo echo ","'docker container rm --force $(docker container ls -a --quiet)' >>/home/ec2-user/oracleb.sh","\n",
                 "sudo chmod +x /home/ec2-user/oracleb.sh","\n",
                 "exit","\n"
