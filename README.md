@@ -1,6 +1,7 @@
 # Database Session
 ## Infrastructure setup:
 Please refer to steps mentioned at https://github.com/makgaot/dmsworkshop/blob/master/Infrastructure.md
+https://tinyurl.com/y2wtenps
 
 ## Infrastructure components
 Once the Cloudformation Stack completes successfully would launch following components
