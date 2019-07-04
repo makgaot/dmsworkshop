@@ -99,6 +99,5 @@ ADD CONSTRAINT fk_finaltb_finaltb_965578478 FOREIGN KEY (orderno)
 REFERENCES ordertb (orderid)
 ON UPDATE NO ACTION
 ON DELETE NO ACTION;
-```
 
-### Once done, *don't forget* to upload us the output of 5 consecutive runs of Step 5 similar to earlier log uploads.
+
