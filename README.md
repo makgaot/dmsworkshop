@@ -22,7 +22,7 @@ Connecting from EC2 Client to Database instances:
 After SSHing to the ec2 client either using terminal (mac) or Putty (windows).
 Home folder would have following files
 ```
-[ec2-user@ip-172-31-0-17 ~]$ ll
+[ec2-user@ip-172-31-0-17 ~]$ ls
 total 44
 -rwxr-xr-x 1 root root   122 May 15 04:45 aupsqlrb.sh
 -rwxr-xr-x 1 root root   119 May 15 04:45 aupsqlw.sh
