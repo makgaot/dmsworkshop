@@ -48,14 +48,13 @@ Based on your interest you can work on a *Oracle to Aurora Postgres* Or a *SQL S
 8. **Port**: *1521*
 9. **User name**: *myuser*
 10. **Password**: *pAsswOrd12*
-11. **Database name**: *mydata*
-12. **SID/Service name: * ORCL
-13. Expand **Test endpoint connection (optional)**
-14. **VPC**: Select VPC (having name *myVPC*)
-15. **Replication instance**: select replication instance in previous section.
-16. click on **Run test**
-17. If the connection test fails troubleshoot the same.
-18. Lastly click on **Create endpoint**.
+11. **SID/Service name: * ORCL
+12. Expand **Test endpoint connection (optional)**
+13. **VPC**: Select VPC (having name *myVPC*)
+14. **Replication instance**: select replication instance in previous section.
+15. click on **Run test**
+16. If the connection test fails troubleshoot the same.
+17. Lastly click on **Create endpoint**.
 
 
 ## Aurora Postgres
