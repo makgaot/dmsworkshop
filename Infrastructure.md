@@ -22,7 +22,7 @@
     2. For parameter **myKeyPair** select the keypair from the dropdown as created in initial steps.
 17. Click **Next**.
 18. Click **Next** (present at the end of the page) for the page **Configure stack options**
-19. Under page **Review workshop01** scroll to end
+19. Under page **Review migrateInfra** scroll to end
 20. Under **Capabilities** select the checkbox acknowledging **that AWS CloudFormation might create IAM resources.**
 21. Lastly click on **Create Stack**.
 
