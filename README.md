@@ -7,7 +7,7 @@ https://tinyurl.com/y2wtenps
 Once the Cloudformation Stack completes successfully would launch following components
   1. Oracle Instance running on an RDS Infrastructure
   2. EC2 SQL Server Windows 2016 SQL Server 2016 SP2 ENT edition
-  3. Aurora Postgres Cluster with single node.
+  3. Aurora Postgres Cluster.
   4. EC2 Client linux (amazon linux 2) which would be used to connect to source and targets database instances.
 
 From Cloudformation Stack output you will get following information:
