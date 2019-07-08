@@ -33,7 +33,7 @@ UPDATE newtable set region='SOUTH' where id=2;
 18. Finally, do upload the task logs/source and target table (newtable) select outputs.
 19. Zip above files and name it as per your full name and day3
 Lastly upload it to
-https://tinyurl.com/yyjggswp  
+https://tinyurl.com/y4p5rxfd
 
 
 ## 1B. SQLServer to Postgres dms task challenge
