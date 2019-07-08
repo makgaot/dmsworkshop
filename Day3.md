@@ -64,7 +64,8 @@ select * from finaltb;
 18. Finally, do upload the task logs/source and target table (finaltb) select outputs.
 19. Zip above files and name it as per your full name and day3
 Lastly upload it to
-https://tinyurl.com/yyjggswp  
+https://tinyurl.com/y4p5rxfd
+ 
 
 # SQLServer to Postgres dms task script to run on target Aurora instance
 Script to run on target Aurora Writer PSQL connection:
